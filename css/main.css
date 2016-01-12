@@ -260,3 +260,13 @@ display: none;
     background-size: 35%;
     background-position: center;
 }
+
+#abcd {
+    background-color: black;
+}
+
+#inp {
+    width: 100%;
+    height: 20%;
+    font-size: 4em;
+}
