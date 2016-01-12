@@ -1,0 +1,14 @@
+#abcd {
+    150px;
+    height: 400px;
+    overflow: scroll;
+}
+
+.butlist {
+    min-width: 30em;
+    max-width: 46em;
+}
+
+.lr {
+    margin: -10
+}
