@@ -257,4 +257,6 @@ display: none;
 
 #homebutton{
     background: url(noun_148008_cc.png) 10px 10px no-repeat;
+    background-size: 30%;
+    background-position: center;
 }
