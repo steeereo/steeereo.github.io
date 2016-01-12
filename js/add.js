@@ -44,11 +44,8 @@ var calories =0;
                 d=new Date();
                 today=new Date(d.getFullYear(),d.getMonth(),d.getDate());
                 today_new=JSON.parse(JSON.stringify(today));
-                alert(item['date'] + '  '  + today_new);
                 if(item['date'] == today_new) {
-                    alert('heuties Datum gefundne');
                     item['volume'] += food_items[x.val()[7]];
-                    alert('item gefunden');
                 } 
                 else{
                     key = "$fap_wkci" + (parseInt(nr_wkci_items)+1).toString() + "$"; 
