@@ -6,8 +6,12 @@
 }
 
 .butlist {
-    min-width: 30em;
-    max-width: 86em;
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 2em;
+    margin-bottom: 1%;
+    
 }
 
 .lr {
