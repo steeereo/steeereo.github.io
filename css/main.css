@@ -7,7 +7,8 @@ position: fixed;
 left: 0;
 bottom: 0%;
 width: 100%;
-background-color:whitesmoke;
+background-color:#5BC0DE;
+;
 }
 
 .btn-group {
@@ -252,4 +253,8 @@ display: none;
 
 .form-control {
     border-radius: 0px;
+}
+
+#homebutton{
+    background: url(noun_148008_cc.png) 10px 10px no-repeat;
 }
