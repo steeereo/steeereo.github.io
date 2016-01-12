@@ -1,6 +1,7 @@
 #abcd {
-    150px;
-    height: 400px;
+    
+    height: 100%;
+    width: 100%;
     overflow: scroll;
 }
 
@@ -10,5 +11,5 @@
 }
 
 .lr {
-    margin: -10
+    margin: -10;
 }
