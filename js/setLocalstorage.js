@@ -496,7 +496,7 @@ function init_localStor_chartData() {
     
     var chartData=[];
     
-     alert("chartData");
+     //alert("chartData");
     d=new Date();
     y= d.getFullYear();
     mon= d.getMonth();
