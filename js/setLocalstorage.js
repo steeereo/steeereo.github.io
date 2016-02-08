@@ -7,20 +7,20 @@ function init_locStor_foodItems(){
     
    // alert("foodItems");
       
-localStorage.setItem("$fap_fi1$", JSON.stringify(["Aal", "100g", "14.0g", "23.0g", "0.0g", "0.0g", "0.0g", "0.0g", "263", "kcal", "2.6"]));
-localStorage.setItem("$fap_fi2$", JSON.stringify(["Absinth_(45%_Vol.%)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "36.0g", "256", "kcal", "2.6"]));
-localStorage.setItem("$fap_fi3$", JSON.stringify(["Acai", "100g", "5.0g", "19.0g", "4.0g", "2.0g", "0.0g", "0.0g", "207", "kcal", "2.1"]));
-localStorage.setItem("$fap_fi4$", JSON.stringify(["Acerola", "100g", "0.0g", "0.0g", "3.5g", "3.5g", "2.0g", "0.0g", "18", "kcal", "0.2"]));
-localStorage.setItem("$fap_fi5$", JSON.stringify(["Ackerbohnen", "100g", "8.0g", "0.6g", "18.0g", "9.0g", "9.0g", "0.0g", "127", "kcal", "1.3"]));
-localStorage.setItem("$fap_fi6$", JSON.stringify(["AfaAlgefrisch", "100g", "6.0g", "0.4g", "2.0g", "0.0g", "4.0g", "0.0g", "44", "kcal", "0.4"]));
-localStorage.setItem("$fap_fi7$", JSON.stringify(["Ahornsirup", "100g", "0.0g", "0.0g", "65.0g", "65.0g", "0.0g", "0.0g", "260", "kcal", "2.6"]));
-localStorage.setItem("$fap_fi8$", JSON.stringify(["AloeVera_Saft", "100ml", "0.1g", "0.0g", "0.4g", "0.0g", "0.2g", "0.0g", "2", "kcal", "0.0"]));
-localStorage.setItem("$fap_fi9$", JSON.stringify(["Amaranth", "100g", "14.3g", "9.0g", "55.0g", "2.0g", "8.7g", "0.0g", "376", "kcal", "3.8"]));
-localStorage.setItem("$fap_fi10$", JSON.stringify(["Ananas", "100g", "0.4g", "0.2g", "11.5g", "11.3g", "1.0g", "0.0g", "51", "kcal", "0.5"]));
-localStorage.setItem("$fap_fi11$", JSON.stringify(["Apfel", "100g", "0.4g", "0.2g", "11.0g", "10.4g", "2.4g", "0.0g", "52", "kcal", "0.5"]));
-localStorage.setItem("$fap_fi12$", JSON.stringify(["Apfelsaft", "100ml", "0.0g", "0.0g", "11.0g", "11.0g", "0.0g", "0.0g", "44", "kcal", "0.4"]));
-localStorage.setItem("$fap_fi13$", JSON.stringify(["Apfelschorle", "100ml", "0.0g", "0.0g", "7.0g", "7.0g", "0.0g", "0.0g", "28", "kcal", "0.3"]));
-localStorage.setItem("$fap_fi14$", JSON.stringify(["Appenzeller", "100g", "24.0g", "31.0g", "0.0g", "0.0g", "0.0g", "0.0g", "375", "kcal", "3.8"]));
+localStorage.setItem("$fap_fi1$", JSON.stringify(["Aal", "100g", "14.0g", "23.0g", "0.0g", "0.0g", "0.0g", "0.0g", "263", "kcal", "2.6", "aal.jpg"]));
+localStorage.setItem("$fap_fi2$", JSON.stringify(["Absinth", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "36.0g", "256", "kcal", "2.6", "absinth.jpg"]));
+localStorage.setItem("$fap_fi3$", JSON.stringify(["Acai", "100g", "5.0g", "19.0g", "4.0g", "2.0g", "0.0g", "0.0g", "207", "kcal", "2.1", "acai.jpg"]));
+localStorage.setItem("$fap_fi4$", JSON.stringify(["Acerola", "100g", "0.0g", "0.0g", "3.5g", "3.5g", "2.0g", "0.0g", "18", "kcal", "0.2", "acerola.jpg"]));
+localStorage.setItem("$fap_fi5$", JSON.stringify(["Ackerbohnen", "100g", "8.0g", "0.6g", "18.0g", "9.0g", "9.0g", "0.0g", "127", "kcal", "1.3", "Ackerbohnen.jpg"]));
+localStorage.setItem("$fap_fi6$", JSON.stringify(["AfaAlgefrisch", "100g", "6.0g", "0.4g", "2.0g", "0.0g", "4.0g", "0.0g", "44", "kcal", "0.4", "AfaAlgefrisch.jpg"]));
+localStorage.setItem("$fap_fi7$", JSON.stringify(["Ahornsirup", "100g", "0.0g", "0.0g", "65.0g", "65.0g", "0.0g", "0.0g", "260", "kcal", "2.6", "Ahornsirup.jpg"]));
+localStorage.setItem("$fap_fi8$", JSON.stringify(["AloeVera_Saft", "100ml", "0.1g", "0.0g", "0.4g", "0.0g", "0.2g", "0.0g", "2", "kcal", "0.0", "AloeVera_Saft.jpg"]));
+localStorage.setItem("$fap_fi9$", JSON.stringify(["Amaranth", "100g", "14.3g", "9.0g", "55.0g", "2.0g", "8.7g", "0.0g", "376", "kcal", "3.8", "Amaranth.jpg"]));
+localStorage.setItem("$fap_fi10$", JSON.stringify(["Ananas", "100g", "0.4g", "0.2g", "11.5g", "11.3g", "1.0g", "0.0g", "51", "kcal", "0.5", "Ananas.jpg"]));
+localStorage.setItem("$fap_fi11$", JSON.stringify(["Apfel", "100g", "0.4g", "0.2g", "11.0g", "10.4g", "2.4g", "0.0g", "52", "kcal", "0.5", "Apfel.jpg"]));
+localStorage.setItem("$fap_fi12$", JSON.stringify(["Apfelsaft", "100ml", "0.0g", "0.0g", "11.0g", "11.0g", "0.0g", "0.0g", "44", "kcal", "0.4", "Apfelsaft.jpg"]));
+localStorage.setItem("$fap_fi13$", JSON.stringify(["Apfelschorle", "100ml", "0.0g", "0.0g", "7.0g", "7.0g", "0.0g", "0.0g", "28", "kcal", "0.3", "Apfelschorle.jpg"]));
+localStorage.setItem("$fap_fi14$", JSON.stringify(["Appenzeller", "100g", "24.0g", "31.0g", "0.0g", "0.0g", "0.0g", "0.0g", "375", "kcal", "3.8", "Appenzeller.gif"]));
 localStorage.setItem("$fap_fi15$", JSON.stringify(["Aprikose", "100g", "1.0g", "0.0g", "9.0g", "9.0g", "1.0g", "0.0g", "42", "kcal", "0.4"]));
 localStorage.setItem("$fap_fi16$", JSON.stringify(["AroniaBeeren", "100g", "2.5g", "2.0g", "20.0g", "18.0g", "3.0g", "0.0g", "114", "kcal", "1.1"]));
 localStorage.setItem("$fap_fi17$", JSON.stringify(["Artischocke", "100g", "2.0g", "0.0g", "2.9g", "2.9g", "10.9g", "0.0g", "41", "kcal", "0.4"]));
@@ -31,7 +31,7 @@ localStorage.setItem("$fap_fi21$", JSON.stringify(["Avocado", "100g", "2.0g", "2
 localStorage.setItem("$fap_fi22$", JSON.stringify(["Ayran", "100ml", "1.8g", "2.5g", "2.0g", "2.0g", "0.0g", "0.0g", "38", "kcal", "0.4"]));
 localStorage.setItem("$fap_fi23$", JSON.stringify(["Baguette", "100g", "7.0g", "3.0g", "58.4g", "4.0g", "4.0g", "0.0g", "297", "kcal", "3.0"]));
 localStorage.setItem("$fap_fi24$", JSON.stringify(["Bambussprossen", "100g", "1.7g", "0.0g", "1.0g", "1.0g", "1.5g", "0.0g", "14", "kcal", "0.1"]));
-localStorage.setItem("$fap_fi25$", JSON.stringify(["Banane", "100g", "1.2g", "0.2g", "20.0g", "17.0g", "1.8g", "0.0g", "90", "kcal", "0.9"]));
+localStorage.setItem("$fap_fi25$", JSON.stringify(["Banane", "100g", "1.2g", "0.2g", "20.0g", "17.0g", "1.8g", "0.0g", "90", "kcal", "0.9", "banane.jpg"]));
 localStorage.setItem("$fap_fi26$", JSON.stringify(["Barsch", "100g", "20.0g", "1.5g", "0.0g", "0.0g", "0.0g", "0.0g", "94", "kcal", "0.9"]));
 localStorage.setItem("$fap_fi27$", JSON.stringify(["Berberitzen_getrocknet", "100g", "3.4g", "2.8g", "65.2g", "64.8g", "6.8g", "0.0g", "313", "kcal", "3.1"]));
 localStorage.setItem("$fap_fi28$", JSON.stringify(["Bier", "100ml", "0.0g", "0.0g", "3.0g", "3.0g", "0.0g", "4.0g", "40", "kcal", "0.4"]));
@@ -60,7 +60,7 @@ localStorage.setItem("$fap_fi50$", JSON.stringify(["Butterpilze", "100g", "2.0g"
 localStorage.setItem("$fap_fi51$", JSON.stringify(["Butterschmalz", "100g", "0.0g", "100.0g", "0.0g", "0.0g", "0.0g", "0.0g", "900", "kcal", "9.0"]));
 localStorage.setItem("$fap_fi52$", JSON.stringify(["Cabanossi", "100g", "14.0g", "30.0g", "0.0g", "0.0g", "0.0g", "0.0g", "326", "kcal", "3.3"]));
 localStorage.setItem("$fap_fi53$", JSON.stringify(["Camembert", "100g", "19.0g", "35.0g", "0.0g", "0.0g", "0.0g", "0.0g", "391", "kcal", "3.9"]));
-localStorage.setItem("$fap_fi54$", JSON.stringify(["Camu-Camu", "Pulver", "100g", "4.0g", "0.0g", "89.0g", "70.0g", "0.7g", "0.0g", "373", "kcal", "3.7"]));
+localStorage.setItem("$fap_fi54$", JSON.stringify(["Camu-Camu", "100g", "4.0g", "0.0g", "89.0g", "70.0g", "0.7g", "0.0g", "373", "kcal", "3.7"]));
 localStorage.setItem("$fap_fi55$", JSON.stringify(["Cappuccino", "100ml", "1.5g", "1.7g", "3.0g", "3.0g", "0.0g", "0.0g", "33", "kcal", "0.3"]));
 localStorage.setItem("$fap_fi56$", JSON.stringify(["Cashewn\xFCsse", "100g", "21.0g", "40.4g", "30.7g", "6.0g", "2.4g", "0.0g", "575", "kcal", "5.8"]));
 localStorage.setItem("$fap_fi57$", JSON.stringify(["Champagner", "100ml", "0.0g", "0.0g", "5.0g", "5.0g", "0.0g", "10.0g", "91", "kcal", "0.9"]));
@@ -69,7 +69,7 @@ localStorage.setItem("$fap_fi59$", JSON.stringify(["CheddarK\xE4se", "100g", "22
 localStorage.setItem("$fap_fi60$", JSON.stringify(["Chia", "100g", "21.0g", "31.0g", "5.0g", "0.0g", "34.0g", "0.0g", "451", "kcal", "4.5"]));
 localStorage.setItem("$fap_fi61$", JSON.stringify(["ChickenWings", "100g", "15.0g", "14.0g", "0.0g", "0.0g", "0.0g", "0.0g", "186", "kcal", "1.9"]));
 localStorage.setItem("$fap_fi62$", JSON.stringify(["Chicor\xE9e", "100g", "1.0g", "0.0g", "2.0g", "2.0g", "1.1g", "0.0g", "14", "kcal", "0.1"]));
-localStorage.setItem("$fap_fi63$", JSON.stringify(["Chilischo", "te", "100g", "1.8g", "0.4g", "9.0g", "6.0g", "1.7g", "0.0g", "50", "kcal", "0.5"]));
+localStorage.setItem("$fap_fi63$", JSON.stringify(["Chilischo", "100g", "1.8g", "0.4g", "9.0g", "6.0g", "1.7g", "0.0g", "50", "kcal", "0.5"]));
 localStorage.setItem("$fap_fi64$", JSON.stringify(["Chinakohl", "100g", "0.7g", "0.3g", "0.8g", "0.7g", "2.0g", "0.0g", "13", "kcal", "0.1"]));
 localStorage.setItem("$fap_fi65$", JSON.stringify(["Chlorella", "100g", "55.0g", "10.0g", "23.0g", "0.0g", "1.0g", "0.0g", "404", "kcal", "4.0"]));
 localStorage.setItem("$fap_fi66$", JSON.stringify(["Cidre", "100ml", "0.0g", "0.0g", "6.0g", "6.0g", "0.0g", "4.0g", "52", "kcal", "0.5"]));
@@ -77,13 +77,13 @@ localStorage.setItem("$fap_fi67$", JSON.stringify(["Clementine", "100g", "1.0g",
 localStorage.setItem("$fap_fi68$", JSON.stringify(["Cola", "100ml", "0.0g", "0.0g", "12.0g", "12.0g", "0.0g", "0.0g", "48", "kcal", "0.5"]));
 localStorage.setItem("$fap_fi69$", JSON.stringify(["Colalight", "100ml", "0.0g", "0.0g", "0.7g", "0.0g", "0.0g", "0.0g", "3", "kcal", "0.0"]));
 localStorage.setItem("$fap_fi70$", JSON.stringify(["CornedBeef", "100g", "20.0g", "7.0g", "0.0g", "0.0g", "0.0g", "0.0g", "143", "kcal", "1.4"]));
-localStorage.setItem("$fap_fi71$", JSON.stringify(["Cornflakes,", "natur", "100g", "6.5g", "0.8g", "78.0g", "4.0g", "3.0g", "0.0g", "351", "kcal", "3.5"]));
+localStorage.setItem("$fap_fi71$", JSON.stringify(["Cornflakes", "100g", "6.5g", "0.8g", "78.0g", "4.0g", "3.0g", "0.0g", "351", "kcal", "3.5"]));
 localStorage.setItem("$fap_fi72$", JSON.stringify(["Couscous", "100g", "4.0g", "0.0g", "23.0g", "0.0g", "1.3g", "0.0g", "111", "kcal", "1.1"]));
 localStorage.setItem("$fap_fi73$", JSON.stringify(["Cranberry", "100g", "1.0g", "1.0g", "5.0g", "5.0g", "3.0g", "0.0g", "39", "kcal", "0.4"]));
 localStorage.setItem("$fap_fi74$", JSON.stringify(["Cremefraiche_15%", "100g", "2.0g", "15.0g", "4.0g", "3.0g", "0.0g", "0.0g", "159", "kcal", "1.6"]));
 localStorage.setItem("$fap_fi75$", JSON.stringify(["Cremefraiche_30%", "100g", "2.0g", "30.0g", "5.0g", "5.0g", "0.0g", "0.0g", "298", "kcal", "3.0"]));
 localStorage.setItem("$fap_fi76$", JSON.stringify(["Croissant", "100g", "6.1g", "27.0g", "41.0g", "6.8g", "1.7g", "0.0g", "435", "kcal", "4.3"]));
-localStorage.setItem("$fap_fi77$", JSON.stringify(["Currywurst", "mit", "Sauce", "100g", "11.0g", "25.0g", "15.0g", "15.0g", "0.0g", "0.0g", "329", "kcal", "3.3"]));
+localStorage.setItem("$fap_fi77$", JSON.stringify(["Currywurst", "100g", "11.0g", "25.0g", "15.0g", "15.0g", "0.0g", "0.0g", "329", "kcal", "3.3"]));
 localStorage.setItem("$fap_fi78$", JSON.stringify(["Datteln", "100g", "2.0g", "0.0g", "60.0g", "60.0g", "9.0g", "0.0g", "266", "kcal", "2.7"]));
 localStorage.setItem("$fap_fi79$", JSON.stringify(["Di\xE4tbier", "100ml", "0.0g", "0.0g", "2.0g", "0.0g", "0.0g", "3.3g", "31", "kcal", "0.3"]));
 localStorage.setItem("$fap_fi80$", JSON.stringify(["Dicke_Bohnen", "100g", "6.8g", "1.2g", "11.9g", "5.1g", "3.0g", "0.0g", "92", "kcal", "0.9"]));
@@ -92,7 +92,7 @@ localStorage.setItem("$fap_fi82$", JSON.stringify(["Dinkelmehl_Vollkorn", "100g"
 localStorage.setItem("$fap_fi83$", JSON.stringify(["Dorade", "100g", "22.0g", "5.0g", "0.0g", "0.0g", "0.0g", "0.0g", "133", "kcal", "1.3"]));
 localStorage.setItem("$fap_fi84$", JSON.stringify(["Edamer_K\xE4se", "100g", "22.0g", "30.0g", "0.0g", "0.0g", "0.0g", "0.0g", "358", "kcal", "3.6"]));
 localStorage.setItem("$fap_fi85$", JSON.stringify(["Ei", "100g", "12.0g", "11.0g", "1.0g", "1.0g", "0.0g", "0.0g", "151", "kcal", "1.5"]));
-localStorage.setItem("$fap_fi86$", JSON.stringify(["Eierlik\xF6r", "(20%", "Vo", "l.)", "100ml", "4.0g", "6.0g", "26.0g", "26.0g", "0.0g", "16.0g", "288", "kcal", "2.9"]));
+localStorage.setItem("$fap_fi86$", JSON.stringify(["Eierlik\xF6r", "100ml", "4.0g", "6.0g", "26.0g", "26.0g", "0.0g", "16.0g", "288", "kcal", "2.9"]));
 localStorage.setItem("$fap_fi87$", JSON.stringify(["Eigelb", "100g", "17.0g", "31.5g", "0.0g", "0.0g", "0.0g", "0.0g", "352", "kcal", "3.5"]));
 localStorage.setItem("$fap_fi88$", JSON.stringify(["Eisbergsalat", "100g", "0.5g", "0.0g", "0.7g", "0.7g", "1.0g", "0.0g", "7", "kcal", "0.1"]));
 localStorage.setItem("$fap_fi89$", JSON.stringify(["Eiscreme", "100g", "3.8g", "12.0g", "20.0g", "20.0g", "0.0g", "0.0g", "203", "kcal", "2.0"]));
@@ -139,7 +139,7 @@ localStorage.setItem("$fap_fi129$", JSON.stringify(["Gl\xFChwein", "100ml", "0.0
 localStorage.setItem("$fap_fi130$", JSON.stringify(["Gluten_Weizenkleber", "100g", "80.0g", "1.4g", "5.1g", "1.9g", "0.0g", "0.0g", "353", "kcal", "3.5"]));
 localStorage.setItem("$fap_fi131$", JSON.stringify(["Gorgonzola", "100g", "20.0g", "33.0g", "0.0g", "0.0g", "0.0g", "0.0g", "377", "kcal", "3.8"]));
 localStorage.setItem("$fap_fi132$", JSON.stringify(["Gouda_K\xE4se", "100g", "22.0g", "32.0g", "0.0g", "0.0g", "0.0g", "0.0g", "376", "kcal", "3.8"]));
-localStorage.setItem("$fap_fi133$", JSON.stringify(["Granatapfel", "100g", "1.0g", "0.0g", "15.0g", "14.0g", "2.0g", "0.0g", "68", "kcal", "0.7"]));
+localStorage.setItem("$fap_fi133$", JSON.stringify(["Granatapfel", "100g", "1.0g", "0.0g", "15.0g", "14.0g", "2.0g", "0.0g", "68", "kcal", "0.7", "Granatapfel.jpg"]));
 localStorage.setItem("$fap_fi134$", JSON.stringify(["Grapefruit", "100g", "1.0g", "0.0g", "6.0g", "6.0g", "1.4g", "0.0g", "31", "kcal", "0.3"]));
 localStorage.setItem("$fap_fi135$", JSON.stringify(["Grappa(40%Vol.)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "32.0g", "227", "kcal", "2.3"]));
 localStorage.setItem("$fap_fi136$", JSON.stringify(["Grissinis", "100g", "6.0g", "9.4g", "30.0g", "2.0g", "4.7g", "0.0g", "238", "kcal", "2.4"]));
@@ -187,7 +187,7 @@ localStorage.setItem("$fap_fi177$", JSON.stringify(["Kaffee_schwarz", "100ml", "
 localStorage.setItem("$fap_fi178$", JSON.stringify(["Kaffeesahne10%", "100ml", "3.0g", "10.0g", "4.0g", "4.0g", "0.0g", "0.0g", "118", "kcal", "1.2"]));
 localStorage.setItem("$fap_fi179$", JSON.stringify(["Kaffeesahne4%", "100ml", "3.0g", "4.0g", "4.0g", "4.0g", "0.0g", "0.0g", "64", "kcal", "0.6"]));
 localStorage.setItem("$fap_fi180$", JSON.stringify(["Kaffeesahne7,5%", "100ml", "3.0g", "7.5g", "4.0g", "4.0g", "0.0g", "0.0g", "96", "kcal", "1.0"]));
-localStorage.setItem("$fap_fi181$", JSON.stringify(["Kakao,stark", "ent\xF6", "lt", "100g", "23.0g", "15.0g", "10.0g", "2.0g", "35.0g", "0.0g", "337", "kcal", "3.4"]));
+localStorage.setItem("$fap_fi181$", JSON.stringify(["Kakao,stark", "100g", "23.0g", "15.0g", "10.0g", "2.0g", "35.0g", "0.0g", "337", "kcal", "3.4"]));
 localStorage.setItem("$fap_fi182$", JSON.stringify(["Kakaobohnen", "100g", "20.0g", "25.0g", "11.0g", "1.0g", "33.0g", "0.0g", "415", "kcal", "4.2"]));
 localStorage.setItem("$fap_fi183$", JSON.stringify(["Kakaobutter", "100g", "0.0g", "100.0g", "0.0g", "0.0g", "0.0g", "0.0g", "900", "kcal", "9.0"]));
 localStorage.setItem("$fap_fi184$", JSON.stringify(["Kakaomilch1,5%", "100ml", "3.0g", "2.6g", "20.0g", "20.0g", "0.0g", "0.0g", "115", "kcal", "1.2"]));
@@ -271,9 +271,9 @@ localStorage.setItem("$fap_fi261$", JSON.stringify(["Mayonnaise", "100g", "0.0g"
 localStorage.setItem("$fap_fi262$", JSON.stringify(["Meerrettich", "100g", "1.2g", "0.6g", "12.0g", "8.0g", "3.3g", "0.0g", "65", "kcal", "0.6"]));
 localStorage.setItem("$fap_fi263$", JSON.stringify(["Mehrkornbrot", "100g", "6.5g", "2.0g", "44.0g", "2.0g", "9.0g", "0.0g", "238", "kcal", "2.4"]));
 localStorage.setItem("$fap_fi264$", JSON.stringify(["Miesmuscheln", "100g", "10.0g", "1.8g", "0.0g", "0.0g", "0.0g", "0.0g", "56", "kcal", "0.6"]));
-localStorage.setItem("$fap_fi265$", JSON.stringify(["Milch0,3%", "100ml", "3.0g", "0.3g", "5.0g", "5.0g", "0.0g", "0.0g", "35", "kcal", "0.3"]));
-localStorage.setItem("$fap_fi266$", JSON.stringify(["Milch1,5%", "100ml", "3.0g", "1.5g", "5.0g", "5.0g", "0.0g", "0.0g", "46", "kcal", "0.5"]));
-localStorage.setItem("$fap_fi267$", JSON.stringify(["Milch3,5%", "100ml", "3.0g", "3.5g", "5.0g", "5.0g", "0.0g", "0.0g", "64", "kcal", "0.6"]));
+localStorage.setItem("$fap_fi265$", JSON.stringify(["Milch0,3%", "100ml", "3.0g", "0.3g", "5.0g", "5.0g", "0.0g", "0.0g", "35", "kcal", "0.3", "Milch.jpg"]));
+localStorage.setItem("$fap_fi266$", JSON.stringify(["Milch1,5%", "100ml", "3.0g", "1.5g", "5.0g", "5.0g", "0.0g", "0.0g", "46", "kcal", "0.5", "Milch.jpg"]));
+localStorage.setItem("$fap_fi267$", JSON.stringify(["Milch3,5%", "100ml", "3.0g", "3.5g", "5.0g", "5.0g", "0.0g", "0.0g", "64", "kcal", "0.6", "Milch.jpg"]));
 localStorage.setItem("$fap_fi268$", JSON.stringify(["Milchkaffee", "100ml", "0.4g", "0.4g", "0.2g", "0.2g", "0.0g", "0.0g", "6", "kcal", "0.1"]));
 localStorage.setItem("$fap_fi269$", JSON.stringify(["Milchschnitte", "100g", "8.0g", "28.0g", "34.0g", "29.0g", "1.4g", "0.0g", "423", "kcal", "4.2"]));
 localStorage.setItem("$fap_fi270$", JSON.stringify(["Milchschokolade", "100g", "8.0g", "32.0g", "53.0g", "53.0g", "1.0g", "0.0g", "534", "kcal", "5.3"]));
@@ -376,8 +376,8 @@ localStorage.setItem("$fap_fi366$", JSON.stringify(["Rotkohl", "100g", "1.8g", "
 localStorage.setItem("$fap_fi367$", JSON.stringify(["Rotwein", "100ml", "0.0g", "0.0g", "3.0g", "3.0g", "0.0g", "9.7g", "81", "kcal", "0.8"]));
 localStorage.setItem("$fap_fi368$", JSON.stringify(["R\xFCbensaft", "100g", "0.0g", "0.0g", "69.0g", "69.0g", "3.0g", "0.0g", "282", "kcal", "2.8"]));
 localStorage.setItem("$fap_fi369$", JSON.stringify(["Rucola", "100g", "1.7g", "1.2g", "1.9g", "1.9g", "1.6g", "0.0g", "28", "kcal", "0.3"]));
-localStorage.setItem("$fap_fi370$", JSON.stringify(["Rum(37%", "Vol.)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "29.6g", "210", "kcal", "2.1"]));
-localStorage.setItem("$fap_fi371$", JSON.stringify(["Rum(65%", "Vol.)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "52.0g", "369", "kcal", "3.7"]));
+localStorage.setItem("$fap_fi370$", JSON.stringify(["Rum(37%_Vol.)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "29.6g", "210", "kcal", "2.1"]));
+localStorage.setItem("$fap_fi371$", JSON.stringify(["Rum(65%_Vol.)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "52.0g", "369", "kcal", "3.7"]));
 localStorage.setItem("$fap_fi372$", JSON.stringify(["Rumpsteak", "100g", "30.0g", "9.0g", "0.0g", "0.0g", "0.0g", "0.0g", "201", "kcal", "2.0"]));
 localStorage.setItem("$fap_fi373$", JSON.stringify(["Sahneies", "100g", "2.0g", "10.0g", "22.0g", "22.0g", "0.0g", "0.0g", "186", "kcal", "1.9"]));
 localStorage.setItem("$fap_fi374$", JSON.stringify(["Salami", "100g", "20.0g", "28.0g", "0.0g", "0.0g", "0.0g", "0.0g", "332", "kcal", "3.3"]));
@@ -467,7 +467,7 @@ localStorage.setItem("$fap_fi457$", JSON.stringify(["Weizenkn\xE4ckebrot", "100g
 localStorage.setItem("$fap_fi458$", JSON.stringify(["Weizenkorn", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "30.4g", "216", "kcal", "2.2"]));
 localStorage.setItem("$fap_fi459$", JSON.stringify(["Weizenmehl_405", "100g", "10.8g", "1.0g", "70.9g", "1.0g", "3.5g", "0.0g", "343", "kcal", "3.4"]));
 localStorage.setItem("$fap_fi460$", JSON.stringify(["Weizenst\xE4rke", "100g", "0.8g", "1.0g", "88.0g", "0.0g", "0.8g", "0.0g", "366", "kcal", "3.7"]));
-localStorage.setItem("$fap_fi461$", JSON.stringify(["Weizenvollko", "rnmehl", "100g", "8.8g", "1.6g", "63.4g", "0.7g", "9.5g", "0.0g", "322", "kcal", "3.2"]));
+localStorage.setItem("$fap_fi461$", JSON.stringify(["Weizenvollkornmehl", "100g", "8.8g", "1.6g", "63.4g", "0.7g", "9.5g", "0.0g", "322", "kcal", "3.2"]));
 localStorage.setItem("$fap_fi462$", JSON.stringify(["Whisky(40%Vol.)", "100ml", "0.0g", "0.0g", "0.0g", "0.0g", "0.0g", "32.0g", "227", "kcal", "2.3"]));
 localStorage.setItem("$fap_fi463$", JSON.stringify(["Wildente", "100g", "11.0g", "8.7g", "0.0g", "0.0g", "0.0g", "0.0g", "122", "kcal", "1.2"]));
 localStorage.setItem("$fap_fi464$", JSON.stringify(["Wildlachs", "100g", "18.0g", "3.0g", "0.0g", "0.0g", "0.0g", "0.0g", "99", "kcal", "1.0"]));
