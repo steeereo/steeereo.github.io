@@ -5,11 +5,7 @@ $(document).ready(function(){
         $("#home").show();
         $("#overview").hide();
         $("#add").hide();
-<<<<<<< HEAD
 		$("#abcd div.butlist, #abcd br").show();
-=======
-		$("#abcd button, #abcd br").show();
->>>>>>> gh-pages
     });
 	
     $("#overviewbutton").click(function(){															// click on 2nd screen - the graph
@@ -17,11 +13,7 @@ $(document).ready(function(){
         $("#home").hide();
         $("#overview").show();
         $("#add").hide();
-<<<<<<< HEAD
 		$("#abcd div.butlist, #abcd br").show();
-=======
-		$("#abcd button, #abcd br").show();
->>>>>>> gh-pages
     });
 	
     $("#addbutton").click(function(){																// click on the 3rd screen - the food list
@@ -34,11 +26,7 @@ $(document).ready(function(){
 	
     $("input#inp").keyup(function(){																// search function
 		var search = $(this).val();
-<<<<<<< HEAD
         $("#abcd div.butlist").each(function(){
-=======
-        $("#abcd button").each(function(){
->>>>>>> gh-pages
 			var val = $(this).val().toLowerCase();
 			if ( val.indexOf(search.toLowerCase()) < 0 ) {
 				$(this).hide();
