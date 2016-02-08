@@ -56,10 +56,13 @@ button {
     min-height: 300px;
 }
 
+<<<<<<< HEAD
 #mealsDiv .butlist {
 	text-align:left;
 }
 
+=======
+>>>>>>> gh-pages
 #chartdiv {
     width: 100vw;
     height: 35vh;
@@ -69,12 +72,21 @@ button {
     height: 100%;
     width: 100%;
 }
+<<<<<<< HEAD
 
 #text_message {
     color: grey;
     font-size: 60px;
 }
 
+=======
+
+#text_message {
+    color: grey;
+    font-size: 60px;
+}
+
+>>>>>>> gh-pages
 #days {
     font-size: 60px;
     margin-left: 3vw;

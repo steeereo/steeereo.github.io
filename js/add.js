@@ -18,6 +18,7 @@ function load_foodItems() {
         var key = "$fap_fi" + (i).toString() + "$";
       //  console.log(key);
         var item = JSON.parse(localStorage.getItem(key));
+<<<<<<< HEAD
 		if ( item[11] ) {
 			use_image = item[11];
 		} else {
@@ -27,6 +28,12 @@ function load_foodItems() {
         //food_items[item[0]] = item[8];
 		keys.push(item[0]);
         $('<div><img src="food_images/'+use_image+'" /> <span style="font-weight:bold;">' + item[0] + "</span> " + item[1] + "<br/>" + item[8] + " " + item[9] + "</div>")
+=======
+        food_items[item[0]] = [item[1], item[2], item[3], item[4], item[5], item[6], item[7], item[8], item[9]];
+        //food_items[item[0]] = item[8];
+      keys.push(item[0]);
+        $("<button>" + item[0] + " " + item[1] + " " + item[8] + " " + item[9] + "</button></br>")
+>>>>>>> gh-pages
             .val(item[0])
 			.attr('class', 'butlist')
 			.attr('id', 'nnn' + i)
@@ -83,8 +90,12 @@ function DrawTheBarChard(){
 			difference = 1700 - total_cal;
 	}
 	
+<<<<<<< HEAD
 //	$("#overview #text_message").html('<div style="padding:40px;text-align:center;">I am <span style="color: ' + color + ';">' + difference + '</span> calories ' + word + ' the budget for the week.</div>');
 	$("#overview #text_message").html('<div style="padding:40px;text-align:center;">Sie können heute noch <span style="color: ' + color + ';">' + difference + '</span> kcal zu sich nehmen.</div>');
+=======
+	$("#overview #text_message").html('<div style="padding:40px;text-align:center;">I am <span style="color: ' + color + ';">' + difference + '</span> calories ' + word + ' the budget for the week.</div>');
+>>>>>>> gh-pages
 
 	Morris.Bar({
 	  element: 'chartdiv',
@@ -136,8 +147,12 @@ var calories =0;
 
             function button_selected(x) {
                 //alert(x.text() + " hinzugefügt");
+<<<<<<< HEAD
                 //$("<p>" + x.val() + " " +food_items[x.val()][7] + " kcal" + "</p>").appendTo('#mealsDiv');
                 x.clone().appendTo('#mealsDiv');
+=======
+                $("<p>" + x.val() + " " +food_items[x.val()][7] + " kcal" + "</p>").appendTo('#mealsDiv');
+>>>>>>> gh-pages
 				
                 calories = calories + parseInt(food_items[x.val()][7]);
 				
@@ -167,7 +182,11 @@ var calories =0;
 				temp.animate({
 					left: "0"
 				}, 500, function() {
+<<<<<<< HEAD
 					temp.find(".arrow").animate({top: "4vh"}, 500);
+=======
+					temp.find(".arrow").animate({top: "15px"}, 500);
+>>>>>>> gh-pages
 					window.setTimeout( function(){
 						temp.animate({
 							left: "-100vw"
