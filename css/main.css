@@ -142,6 +142,7 @@ display: block;
 text-align: center;
 line-height: 2.5em;
 font-size: 70px;    
+text-transform: uppercase;
 }
 
 .counter {
@@ -255,10 +256,31 @@ display: none;
     border-radius: 0px;
 }
 
-#homebutton{
-    background: url(noun_148008_cc.png) no-repeat;
+#homebutton {
+    font-size: 50px;
+    background: url(Icons/Profil.png) center no-repeat;
     background-size: 35%;
-    background-position: center;
+}
+
+#overviewbutton{
+    background: url(Icons/Overview.png) center no-repeat;
+    background-size: 35%;
+}
+
+#addbutton{
+    background: url(Icons/Add.png) center no-repeat;
+    background-size: 35%;
+}
+
+#cotestbutton{
+    background: url(Icons/Community.png) center no-repeat;
+    background-size: 35%;
+}
+
+#settings{
+    background: url(noun_148008_cc.png) center no-repeat;
+    background: url(Icons/FoodList.png) center no-repeat;
+    background-size: 35%;
 }
 
 #abcd {
@@ -269,4 +291,5 @@ display: none;
     width: 100%;
     height: 20%;
     font-size: 4em;
+	padding-left:30px;
 }
