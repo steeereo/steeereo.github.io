@@ -13,55 +13,6 @@ function load_foodItems() {
   //  alert("load_foodItems");
     //test for firefox 3.6 see if it works
     //with this way of iterating it
-	
-	
-	var plusminus1  = '<div class="adjust">';
-		plusminus1 += '<span class="minus buttons"></span>';
-		plusminus1 += '<span class="total"><span class="number">100</span><span class="unit">';
-	var plusminus2  = '</span></span>';
-		plusminus2 += '<span class="plus buttons"></span>';
-		plusminus2 += '</div>';
-	
-	$("body").on("click", ".my_remove .remove_button", function(){
-		
-		var to_remove = parseInt( $(this).closest(".butlist").find(".kcal").html());
-		
-		console.log("Remove is clicked, remove = " + to_remove + "kcal" );
-		
-		calories = calories - to_remove;
-		
-		$('#calorieSum')	.text(calories.toString() + " kcal")
-							.attr("data-cal", calories);
-		UpdateDiagram();
-		DrawTheBarChard();
-		
-		$(this).closest(".butlist").remove();
-		
-	});
-	
-	$("body").on("click", ".adjust .minus", function(){
-		
-		console.log("Minus is clicked, total = " + parseInt($(this).parent().find(".total .number").html()) );
-		
-		var total = parseInt($(this).parent().find(".total .number").html());
-			total = total - 50 <= 0 ? total : total - 50;
-			
-		$(this).parent().find(".total .number").html(total);
-		
-	});
-	
-	$("body").on("click", ".adjust .plus", function(){
-		
-		console.log("Plus is clicked, total = " + parseInt($(this).parent().find(".total .number").html()) );
-		
-		var total = parseInt($(this).parent().find(".total .number").html());
-			total = total + 50;
-			
-		$(this).parent().find(".total .number").html(total);
-		
-	});
-	
-	
     nr_food_items = parseInt(localStorage.getItem("$fap_nofis$"));
     for (var i = 1, len = nr_food_items; i < len; i++) {
         var key = "$fap_fi" + (i).toString() + "$";
@@ -77,28 +28,23 @@ function load_foodItems() {
 		keys.push(item[0]);
 		var element_to_insert  = '<div><img src="food_images/'+use_image+'" /> ';
 			element_to_insert += '<span style="font-weight:bold;">';
-			element_to_insert += item[0];//						the name		(Aal)
+			element_to_insert += item[0];//			the name		(Aal)
 			element_to_insert += "</span> ";
-			element_to_insert += '<span class="quantity" data-quantity="100">100</span>';
-			element_to_insert += '<span class="unit">';
-			element_to_insert += item[1].substr(3);//			the quantity	(100+g)
-			element_to_insert += "</span> ";
+			element_to_insert += item[1];//			the quantity	(100g)
 			element_to_insert += "<br/>";
-			element_to_insert += '<span class="kcal" data-kcal="'+item[8]+'">';
-			element_to_insert += item[8];//						the kcal		(263)
-			element_to_insert += "</span> ";
-			element_to_insert += item[9];//						the kcal unit	(kcal)
-			element_to_insert += plusminus1 + item[1].substr(3) + plusminus2;
+			element_to_insert += item[8];//			the kcal		(263)
+			element_to_insert += " ";
+			element_to_insert += item[9];//			the kcal unit	(kcal)
 			element_to_insert += "</div>";
         $(element_to_insert)
             .val(item[0])
 			.attr('class', 'butlist')
 			.attr('id', 'nnn' + i)
 			.appendTo('#abcd')
-/*			.on("click",function(){
+			.on("click",function(){
 				console.log("Item clicked");
                 button_selected($(this))
-            })*/
+            })
 			.on("swiperight",function(){
 				console.log("Item swiped (right)");
                 button_selected($(this));
@@ -201,22 +147,9 @@ var calories =0;
 function button_selected(x) {
     //alert(x.text() + " hinzugefügt");
     //$("<p>" + x.val() + " " +food_items[x.val()][7] + " kcal" + "</p>").appendTo('#mealsDiv');
+    x.clone().appendTo('#mealsDiv');
 	
-	var remove_button  = '<span class="remove_button"></span>';
-	
-    var $y = x.clone();
-	
-	var temp_quantity 	= parseInt( $y.find(".adjust .total .number").html() ),
-		temp_factor		= temp_quantity / 100,
-		temp_kcal		= parseInt( parseInt( $y.find(".kcal").html() ) * temp_factor );
-		
-	$y.find(".quantity").html( temp_quantity );
-	$y.find(".kcal").html( temp_kcal );
-	$y.find(".adjust").toggleClass("my_remove adjust").html( remove_button );
-	
-	$y.appendTo('#mealsDiv');
-	
-    calories = calories + parseInt( food_items[x.val()][7] * temp_factor );
+    calories = calories + parseInt(food_items[x.val()][7]);
 	
 	$('#calorieSum')	.text(calories.toString() + " kcal")
 						.attr("data-cal", calories);
@@ -236,9 +169,6 @@ function button_selected(x) {
 		left: "100vw"
 	}, 500, function() {
 		window.setTimeout( function(){
-			
-			x.find(".adjust .total .number").html("100");
-			
 			x.animate({
 				left: "0"
 			}, 500);

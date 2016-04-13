@@ -29,7 +29,6 @@ div.butlist {
     font-size: 2vh;
     margin-bottom: 1%;
 	color:grey;
-    position: relative;
     }
 br.butlist {
     width: 100%;
@@ -49,51 +48,6 @@ div.butlist,
 button { 
     border:none; 
     background-color: whitesmoke;
-}
-.my_remove {
-    position: absolute;
-    right: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.adjust {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: grey;
-    color: white;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.adjust span.buttons{
-    margin: 10px 20px 0;
-}
-
-.my_remove span.remove_button{
-	background: url(Icons/xmark.png) center no-repeat;
-	background-size: 60px;
-	display: inline-block;
-	height: 60px;
-	width: 60px;
-}
-.adjust span.minus{
-	background: url(Icons/minus.png) center no-repeat;
-	background-size: 30px;
-}
-.adjust span.plus{
-	background: url(Icons/plus.png) center no-repeat;
-	background-size: 30px;
-}
-.adjust span.minus,
-.adjust span.plus{
-	display: inline-block;
-	height: 30px;
-	width: 30px;
-}
-
-.adjust span.remove_button{
 }
 
 #mealsDiv {
@@ -138,5 +92,3 @@ button {
 .morris-hover.morris-default-style {
     display:none !important;
 }
-
-//
